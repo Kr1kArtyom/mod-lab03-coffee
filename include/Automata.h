@@ -26,15 +26,15 @@ class Automata {
     AutomataItem curItem;
 
  public:
-    Automata() {}
-    void on() {}
-    void off() {}
-    void coin(int value) {}
-    void getMenu() {}
-    int getState() {}
-    void choice(int coffee) {}
-    void check() {}
-    void cancel() {}
-    void cook() {}
-    void finish() {}
+    Automata();
+    void on();
+    void off();
+    void coin(int value);
+    void getMenu();
+    int getState();
+    void choice(int coffee);
+    void check();
+    void cancel();
+    void cook();
+    void finish();
 };
